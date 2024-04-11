@@ -1,0 +1,141 @@
+.navbar{
+    display: flex;
+}
+#button{
+    background-color:#FF395A;
+}
+#explore{
+    background-color: #FF395A;
+}
+.body{
+    display: flex;
+    gap: 10%;
+}
+.header{
+    display: flex;
+}
+#home{
+    color: #FF395A;
+}
+#hero{
+    color: #FF395A;
+}
+#skill{
+    color: #FF395A;
+}
+.icon{
+    display: flex;
+    gap: 5%;
+}
+#cap{
+    width: 80px;
+}
+.login{
+    gap: 20%;
+    display: flex;
+    padding-left: 50px;
+}
+.monthly{
+display: flex;
+gap: 10%;
+}
+.icon3{
+    display: flex;
+    gap: 20%;
+}
+#one{
+    width:80px ;
+    height: 60px;
+}
+.icon4{
+    display: flex;
+    gap: 20%;
+}
+#two{
+    width: 80px;
+    height: 60px;
+}
+.icon1{
+    display: flex;
+
+}
+#microsoft{
+    width: 100px;
+    height: 60px;
+}
+.icon2{
+    display: flex;
+}
+#udemy{
+    width: 100px;
+    height: 60px;
+}
+#slack{
+    width: 100px;
+    height: 60px;
+}
+.footer{
+    display: flex;
+    gap: 10%;}
+@media screen and ( min-width:400px) and (max-width:900px) {
+   .navbar{
+    display: grid;
+   } 
+   .body{
+    flex-direction: column;
+   }
+   .footer{
+    flex-direction: column;
+   }
+   .monthly{
+    flex-direction: column;
+   }
+   .footer{
+    flex-direction: column;
+   }
+   .navbar{
+    display: grid;
+   } 
+   .body{
+    flex-direction: column;
+   }
+  .icon3{
+    display: flex;
+    gap: 10px;
+}
+.icon4{
+    display: flex;
+    gap: 10%;
+}
+   .footer{
+    flex-direction: column;
+
+   }
+   .monthly{
+    flex-direction: column;
+}
+}
+/* @media  screen and (min-width:600px) and (max-width:1200px){
+    .navbar{
+        display: grid;
+       } 
+       .body{
+        flex-direction: column;
+       }
+      .icon3{
+        display: flex;
+        gap: 10px;
+    }
+    .icon4{
+        display: flex;
+        gap: 10%;
+    }
+       .footer{
+        flex-direction: column;
+
+       }
+       .monthly{
+        flex-direction: column;
+       }
+}
+ */
