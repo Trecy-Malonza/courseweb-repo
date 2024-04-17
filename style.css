@@ -1,53 +1,99 @@
+body{
+    margin-left: 300px;
+}
+
 .navbar{
     display: flex;
+    gap: 100px;
+    padding-left: 70px;
+    font-size: 20px;
 }
-#button{
+#navbutton{
     background-color:#FF395A;
+    border-radius: 50px;
+    padding-left: 20px;
+    width: 100px;
+    height: 30px;
 }
-#explore{
+#heropage1{
+    font-size: 50px;
+    
+}
+#heropage2{
+    font-size: 20px;
+}
+#heropagebutton1{
     background-color: #FF395A;
+    border-radius: 20px;
+    width: 90px;
+    margin-left: -25px;
+    height: 50px;
 }
-.body{
+.Heropage{
     display: flex;
     gap: 10%;
 }
-.header{
-    display: flex;
+#heropagebutton{
+    border-radius: 20px;
+    width: 260px;
+    height: 50px;
+    font-size: 15px;
 }
-#home{
+
+
+.navimage{
+    display: flex;
+    align-items: center;
+}
+#navbarhome{
     color: #FF395A;
+}
+.navhome{
+    display: flex;
+    gap: 30%;
+    align-items: center;
 }
 #hero{
     color: #FF395A;
 }
-#skill{
+#navbarskill{
     color: #FF395A;
+    align-items: center;
+    margin-bottom: 5%;
 }
-.icon{
-    display: flex;
-    gap: 5%;
-}
-#cap{
+
+#navbarcap{
     width: 80px;
 }
-.login{
-    gap: 20%;
-    display: flex;
-    padding-left: 50px;
+
+.navbarbutton{
+    
+    gap: 30%;
+    flex-direction: column;
 }
-.monthly{
+    
+
+.navbarlogin{
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+.Herobody{
 display: flex;
-gap: 10%;
+gap: 30%;
 }
-.icon3{
+.Heroicon1{
     display: flex;
-    gap: 20%;
+    gap: 30%;
+}
+#Img{
+    width: 700px;
 }
 #one{
     width:80px ;
     height: 60px;
 }
-.icon4{
+.Heroicon4{
     display: flex;
     gap: 20%;
 }
@@ -55,17 +101,12 @@ gap: 10%;
     width: 80px;
     height: 60px;
 }
-.icon1{
-    display: flex;
 
-}
 #microsoft{
     width: 100px;
     height: 60px;
 }
-.icon2{
-    display: flex;
-}
+
 #udemy{
     width: 100px;
     height: 60px;
@@ -77,46 +118,69 @@ gap: 10%;
 .footer{
     display: flex;
     gap: 10%;}
-@media screen and ( min-width:300px) and (max-width:700px) {
-   .navbar{
+   
+.footericon1{
+        display: flex;
     
-    flex-direction: column;
-   } 
-   .body{
-    flex-direction: column;
-   }
-   .footer{
-    flex-direction: column;
-   }
-   .monthly{
-    flex-direction: column;
-   }
-   .footer{
-    flex-direction: column;
-   }
-   .navbar{
-    display: grid;
-   } 
-   .body{
-    flex-direction: column;
-   }
-  .icon3{
-    display: flex;
-    gap: 10px;
-}
-.icon4{
-    display: flex;
-    gap: 10px;
-}
-   .footer{
-    flex-direction: column;
+    }
+.footericon2{
+        display: flex;
+    }
+ .footerlasticon{
+        display: flex;
+        gap: 5%;
+    }
+
+@media screen and ( min-width:300px) and (max-width:700px) {
+    .navbar{
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 40px;
+        font-size: 20px;
 
    }
-   .monthly{
+   .navbutton{
+    background-color:#FF395A;
+    border-radius: 50px;
+    padding-left: 10px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+
+   
+}
+
+.Heropage{
+    
     flex-direction: column;
 }
+.footer{
+    
+   flex-direction:column ;}
+   
+   .Herobody{
+    
+    gap: 30%;
+    flex-direction: column;
+    }
+    #Img{
+        width: 300px;}
+
+        body{
+            margin-left:50px;
+        }  
+        .navhome{
+            flex-direction: column;
+            gap: 30%;
+            align-items: center;
+        } 
+        #heropage1{
+            font-size: 30px;
+            
+        } 
 }
-/* @media  screen a and (max-width:1200px){
+
+/* @media  screen  and (max-width:1200px){
     .navbar{
         display: grid;
        } 
